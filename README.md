@@ -1,25 +1,24 @@
-This is the repository for the project of the Nonparametric Statistics course, MSc Mathematical Engineering @ Politecnico di Milano, A.Y. 2024-2025.
-The topic of this project is a Nonparametric Inference and Forcasting in Italian Electricity Spot Market.
-The repository is structured as follow:
+# Electricity Market Nonparametric Inference (2023-2024)
 
-FOLDERS:
-Outputs: contain collected images used for the final presentation and the report
-PredictionData: contain the dataset ready to the use for the prediction code
-Presentation: contain the PowerPoints and the final report of the project
-ShortDataset: contain some summary datasets and the dataset used in the functional data analysis part
+This repository contains a statistical and inferential analysis of the Italian electricity market trends, focusing on Zonal Price data recorded in 2023 and 2024.
 
-*WARNING:* two folders, namely DatasetXML and DatasetCSV are not presence
+## 📌 Project Overview
+The goal of this research is to identify patterns and anomalies in electricity prices using nonparametric methodologies. The included report analyzes price variance based on temporal and geographical variables.
 
-.R FILES:
-0.1_csvConversion.R: conversion code from .xml to .csv
-0.2_obtainPrezzoZonale.R: automatically extract from the curves the final price of each auction
-0.3_obtainSmoothDataset.R: automatically extract from the curves the dataset for the smoothing
-1.1_tendecyExploration.R: code for the patterns of the final prices
-1.2_kde.R: kernel density estimation of the knots
-2.1_smoothingChoice.R: different techinque for smoothing the dataset
-2.2_outlierAnalysis.R: outluer analysis of the functional smoothed data
-3.1_permutationalAov.R: permutation one-way anova
-3.2_permutationalT.R: permutation t 2 paired sample test 
-4.1_FAR.R: snipped code for the FAR(1) model
-4.2_demandFAR.R: prediction and conformal intervals for the demand curve
-4.2_supplyFAR.R: prediction and conformal intervals for the supply curve
+## ⚠️ WARNING
+> **IMPORTANT:** The folders `DatasetXML` and `DatasetCSV` are not present in this repository. Ensure you provide your own data sources in the expected format if you intend to run the analysis scripts locally.
+
+## 📂 Repository Structure
+* **results/**: Contains 24 generated plots (PNG) including zonal trends, ANOVA tests, and hourly/daily groupings.
+* **docs/**: Full documentation of results, methodology, and statistical conclusions.
+* **scripts/**: Source code used for data processing and visualization.
+
+## 📜 License and Usage Policy
+All files in this repository, including the report text and the images in the `Outputs` folder, are subject to the following terms:
+
+1. **Academic & Personal Use**: You are free to use, copy, and distribute these files for non-commercial purposes, provided that appropriate credit is given to the original author.
+2. **Commercial Use**: Reproduction or use of the contents for profit is strictly prohibited without explicit written consent.
+3. **Disclaimer**: The data and analyses are provided "as is." The author assumes no responsibility for financial or operational decisions made based on the findings of this study.
+
+---
+*Author: [mattiagast]*
