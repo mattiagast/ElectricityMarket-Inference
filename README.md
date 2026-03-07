@@ -1,4 +1,4 @@
-A Nonparametric Approach to Inference and Forecasting in the Italian Electricity Spot Market
+# A Nonparametric Approach to Inference and Forecasting in the Italian Electricity Spot Market
 
 This repository contains a statistical and inferential analysis of the Italian electricity market trends, focusing on Zonal Price data recorded in 2023 and 2024.
 
@@ -19,3 +19,4 @@ All files in this repository, including the report text and the images in the `r
 1. **Academic & Personal Use**: You are free to use, copy, and distribute these files for non-commercial purposes, provided that appropriate credit is given to the original author.
 2. **Commercial Use**: Reproduction or use of the contents for profit is strictly prohibited without explicit written consent.
 3. **Disclaimer**: The data and analyses are provided "as is." The author assumes no responsibility for financial or operational decisions made based on the findings of this study.
+
